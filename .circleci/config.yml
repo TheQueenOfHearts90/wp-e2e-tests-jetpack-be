@@ -7,7 +7,7 @@ jobs:
         environment:
           NODE_ENV: test
           TARGET: JETPACK
-          JETPACKHOST: PRESSABLE
+          JETPACKHOST: PRESSABLEBLEEDINGEDGE
     steps:
       - checkout
       - run: git submodule init
